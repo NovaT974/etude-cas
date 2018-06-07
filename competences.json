@@ -1,79 +1,72 @@
 [
     {
-        "index": 1,
-      "identite": {
-        "prenom": "Alicia",
-        "nom": "Payet"
+        "index": "1",
+        "skills": {
+          "name": "HTML5",
+          "level": "expert"
       }
     },
     {
-        "index": 2,
-        "identite": {
-          "prenom": "François",
-          "nom": "Xavier"
+        "index": "2",
+        "skills": {
+          "name": "CSS3",
+          "level": "expert"
       }
     },
     {
-        "index": 3,
-        "identite": {
-          "prenom": "Gérard",
-          "nom": "Menvu"
+        "index": "3",
+        "skills": {
+          "name": "Javascript",
+          "level": "debutant"
       }
     },
     {
-        "index": 3,
-        "identite": {
-          "prenom": "Karine",
-          "nom": "Boyer"
+        "index": "4",
+        "skills": {
+          "name": "Node JS",
+          "level": "debutant"
       }
     },
     {
-        "index": 4,
-        "identite": {
-          "prenom": "Mélanie",
-          "nom": "Doe"
+        "index": "5",
+        "skills": {
+          "name": "Photoshop",
+          "level": "intermediaire"
       }
     },
     {
-        "index": 5,
-        "identite": {
-          "prenom": "Alain",
-          "nom": "Dupond"
+        "index": "6",
+        "skills": {
+          "name": "WordPress",
+          "level": "intermediaire"
       }
     },
     {
-        "index": 6,
-        "identite": {
-          "prenom": "Frédéric",
-          "nom": "Smith"
-        }  
+        "index": "7",
+        "skills": {
+          "name": "PHP",
+          "level": "debutant"
+      }
     },
     {
-        "index": 7,
-        "identite": {
-          "prenom": "Robert",
-          "nom": "Toto"
-        }  
+        "index": "8",
+        "skills": {
+            "name": "Python",
+            "level": "debutant"
+        }
     },
     {
-        "index": 8,
-        "identite": {
-          "prenom": "Aline",
-          "nom": "Tata"
-        }  
+        "index": "9",
+        "skills": {
+            "name": "Graphisme",
+            "level": "intermediaire"
+        }
     },
     {
-        "index": 9,
-        "identite": {
-          "prenom": "Luc",
-          "nom": "Bidule"
-        }  
-    },
-    {
-        "index": 10,
-        "identite": {
-          "prenom": "Jeanne",
-          "nom": "Hémard"
-        }  
+        "index": "10",
+        "skills": {
+            "name": "Gestion de projet",
+            "level": "debutant"
+        } 
     }
   ]

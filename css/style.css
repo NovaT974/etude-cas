@@ -1,0 +1,33 @@
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.bg {
+    background:linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+    ), url('../img/slide3.jpg') no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.p_slide {
+    margin: 0 auto;
+}
+
+
+.separator {
+    width: 60px;
+    height: 2px;
+    background-color: #888;
+    margin-left: 0;
+    top: -10px;
+    position: relative;
+}
+
+.etoile {
+    font-size: 25px;
+    float: right;
+}
