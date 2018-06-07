@@ -1,6 +1,10 @@
   
 $(function () {
-
+    function trierList (competences){
+        competences.sort(function (a, b) {
+            return b.value - a.value;
+          });
+    }
 
     $(document).ready(function() {
         $.ajax({
@@ -10,7 +14,7 @@ $(function () {
             
             // affiche la liste des competences
             for (var i = 0; i < competences.length; i++) {
-                
+                trierList (competences);
                 var niveau = '<i class="fas fa-star"></i>';
                 
                 // ajoute les étoiles
