@@ -57,7 +57,7 @@ $(function () {
                     niveau = niveau + niveau + niveau + niveau + niveau + niveau;
                     
                 }
-                $('.liste').append('<li class="list-group-item liste_competences">' + competences[i].skills.name +  '  <span class="">' + niveau + '</span></li>');
+                $('.liste').append('<li class="list-group-item liste_competences">' + competences[i].skills.name +  '  <span class="etoile">' + niveau + '</span></li>');
 
             }
 
